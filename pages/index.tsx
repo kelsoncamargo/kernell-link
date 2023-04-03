@@ -20,8 +20,8 @@ export default function Home() {
             <ul id={styles.contentWorks}>
               <li className={styles.workItens}>Instalação e manutenção de sistemas de vigilância por câmeras. </li>
               <li className={styles.workItens}>Construção e manutenção de redes internas(ethernet).</li>
-              <li className={styles.workItens}>Construção e manutenção de redes via rádio privadas.</li>
-              <li className={styles.workItens}>Construção e manutenção de redes de fibra óptica privadas</li>
+              <li className={styles.workItens}>Construção e manutenção de redes via rádio internas.</li>
+              <li className={styles.workItens}>Construção e manutenção de redes de fibra óptica internas</li>
             </ul>
           </div>
           <div id={styles.contactMain}>
@@ -29,11 +29,11 @@ export default function Home() {
             <div id={styles.contactBox}>
               <div id={styles.kelson}>
                 <p>Nome: Kelson Camargo</p>
-                <p>telefone: 55 9 9943-4986</p>
+                <a href="tel:+5555999434986">telefone: 55 9 9943-4986</a>
               </div>
               <div id={styles.rafael}>
                 <p>Nome: Rafael Betim</p>
-                <p>telefone: 55 9 9943-4986</p>
+                <a href="tel:+5555997310986">telefone: 55 9 9731-0986</a>
               </div>
             </div>
           </div>

@@ -86,6 +86,14 @@
     font-size: 5vw;
   }
 
+  #contactBox > div > a{
+    margin-bottom: 10px;
+    font-size: 5vw;
+    text-decoration: none;
+    color: #fff;
+
+  }
+
   #kelson{
     width: 80vw;
     max-width: 400px;
@@ -124,6 +132,9 @@
     font-size: 50px;
   }
   #contactBox > div > p{
+    font-size: 25px;
+  }
+  #contactBox > div > a{
     font-size: 25px;
   }
 }
